@@ -7,8 +7,8 @@ import Checkout from "./Checkout";
 function App() {
   return (
     <div className="app">
-      <Header />
       <Router>
+        <Header />
         <Routes>
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/" element={<Home />} />
